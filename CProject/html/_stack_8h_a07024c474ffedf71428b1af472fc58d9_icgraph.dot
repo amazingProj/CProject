@@ -1,0 +1,12 @@
+digraph "CreateStack"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="CreateStack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TestStackCreation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_tests_8h.html#a1eedcb60885450fca9817e710eec9e2c",tooltip="tests stack creation"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RunUnitTests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_tests_8h.html#aa97a9cda58fa10ff835b18f62ca5ac81",tooltip=" "];
+}

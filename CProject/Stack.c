@@ -2,6 +2,8 @@
 
 /**
   * @file Stack.h
+  * uses stack
+  * @see LinkedList.h
   */
 Stack* CreateStack()
 {

@@ -2,6 +2,8 @@
 
 /**
   * @file Query.h
+  * uses linked list
+  * @see LinkedList.h
   */
 Query* CreateQuery()
 {

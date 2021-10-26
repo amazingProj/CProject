@@ -145,7 +145,6 @@
     <ClInclude Include="ReverseOrder.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Tests.h" />
-    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinkedList.c" />
@@ -155,7 +154,6 @@
     <ClCompile Include="ReverseOrder.c" />
     <ClCompile Include="Stack.c" />
     <ClCompile Include="Tests.c" />
-    <ClCompile Include="Utils.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,6 +2,7 @@
 #include<stdbool.h>
 /**
   * @file LinkedList.h
+  * No use of others, only his utils
   */
   /// <summary>
   /// Global variable for number of existed lists

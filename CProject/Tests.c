@@ -2,6 +2,10 @@
 
 /**
   * @file Tests.h
+  * tests linked list, query and stack
+  * @see LinkedList.h
+  * @see Query.h
+  * @see Stack.h
   */
 
 void PrintTestResult(size_t x, int code)

@@ -1,0 +1,26 @@
+digraph "InitRoot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="InitRoot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_linked_list_8h.html#aeebfa933e133ea16af4bc49d4b5aba69",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PushBack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_linked_list_8h.html#a6269469f4d5f808dea2cee4cce1dd857",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QueryPush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_query_8h.html#a24c59fceb4972e8043e30a4b479c9fe9",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TestLinkedList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_tests_8h.html#af7f4fde513dc699f2cc5ce2f26d3ba90",tooltip="tests some functions of linked list"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="RunUnitTests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_tests_8h.html#aa97a9cda58fa10ff835b18f62ca5ac81",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="PushFront",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_linked_list_8h.html#a4e4d5cf8a2255ec5dba1c5b7bc882399",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ReverseOrder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_reverse_order_8h.html#af7146198848adea4e95cb13b597edc27",tooltip="gets inputs from user until inputs a string and prints it in reversed order"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="StackPush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_stack_8h.html#a4d8c6401ebd505c90bf59c286f97194b",tooltip=" "];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
